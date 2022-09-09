@@ -1,0 +1,36 @@
+.celek {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: cornsilk;
+}
+
+.nadpis_a {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.nadpis_b {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.nadpis_c {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.nadpis_d {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.p {
+    padding: 20px;
+    color: darkgreen;
+    text-decoration: darkslategray;
+}
+
+.p:hover {
+    transition-duration: 0.5s;
+    color: dimgray;
+}
